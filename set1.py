@@ -99,6 +99,9 @@ def find_xord_string(strings_to_check):
     sorted_based_on_score = sorted(evaluated, key=lambda score: score[0], reverse=True)
     return sorted_based_on_score[0]
 
+def repeating_key_xor(to_xor, xor_key):
+    pass
+
 
 
 def main():
